@@ -69,7 +69,7 @@ if [ "$VAGRANT" = true ]; then
 fi
 
 say '* apt-get install (Dependencies)'; {
-    sudo apt-get -y -q install git build-essential lzip python2.7 cmake autoconf libtool
+    sudo apt-get -y -q install git build-essential lzip python-minimal python2.7 cmake autoconf libtool
 }
 
 if [ "$VAGRANT" = true ]; then
